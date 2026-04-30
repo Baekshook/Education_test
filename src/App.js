@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Education from "./components/pages/Education";
 import Apply from "./components/pages/Apply";
 import SignUp from "./components/pages/SignUp";
+import Notice from "./components/pages/Notice";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/apply" element={<Apply />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/notice" element={<Notice />} />
           </Routes>
         </main>
 

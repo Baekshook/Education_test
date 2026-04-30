@@ -20,9 +20,9 @@ export default function Header() {
           <Link to="/event" className="hover:text-blue-600 transition-colors">
             행사
           </Link>
-          <a href="/#notice" className="hover:text-blue-600 transition-colors">
+          <Link to="/notice" className="hover:text-blue-600 transition-colors">
             공지사항
-          </a>
+          </Link>
         </nav>
 
         {/* ✨ 회원가입 및 신청하기 버튼 영역 */}

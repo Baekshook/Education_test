@@ -6,12 +6,15 @@ export default function NoticeBanner() {
           <span className="bg-blue-600 text-white px-2 py-1 rounded text-xs font-bold whitespace-nowrap">
             공지
           </span>
-          <span className="text-gray-700 truncate hover:underline cursor-pointer">
+          <a
+            href="notice"
+            className="text-gray-700 truncate hover:underline cursor-pointer"
+          >
             2026년 소상공인 유통플랫폼 MD상담회 1차 모집 안내 드립니다.
-          </span>
+          </a>
         </div>
         <a
-          href="#notice"
+          href="notice"
           className="text-gray-500 hover:text-black font-medium shrink-0 whitespace-nowrap ml-4"
         >
           전체보기 &gt;
