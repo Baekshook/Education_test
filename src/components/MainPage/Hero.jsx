@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="absolute inset-0 bg-blue-900 opacity-90"></div>
       <div className="relative z-10 text-center px-4">
         <p className="text-blue-300 font-semibold mb-3 tracking-wider text-sm md:text-base">
-          2026 소상공인 유통플랫폼 MD상담회
+          주관 : 중소벤처기업부   주최 : 한국중소벤처기업유통원
         </p>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-          온·오프라인 MD 상담회
+          2026 소상공인 유통플랫폼 MD상담회
         </h1>
         <p className="text-lg md:text-xl mb-8 text-blue-100">
           로컬의 가치를 잇다, 지역의 성장을 열다{" "}
