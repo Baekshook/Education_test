@@ -8,7 +8,7 @@ export default function Footer() {
               중소벤처기업부
             </span>
             <span className="font-bold text-white bg-gray-800 px-3 py-1 rounded">
-              한국여성경제인협회
+              한국중소벤처기업유통원{" "}
             </span>
           </div>
           <div className="flex space-x-6 text-gray-300">
@@ -27,20 +27,17 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end">
           <div className="space-y-2">
             <p className="text-gray-300 font-semibold text-base mb-4">
-              2026 여성기업 판로역량강화지원 사업 온·오프라인 MD 상담회
+              2026 소상공인 유통플랫폼 MD상담회{" "}
             </p>
+            <p>로컬의 가치를 잇다, 지역의 성장을 열다</p>
             <p>
-              주최·주관: 중소벤처기업부 · 한국여성경제인협회 | 운영사무국:
-              한국마케팅진흥원
-            </p>
-            <p>
-              Email : kr_marketing@naver.com | Phone : 02-743-7398 (평일 10:00 -
+              Email : biz@bizmate.ai.kr | Phone : 02-765-9072~4 (평일 10:00 -
               16:00)
             </p>
           </div>
           <div className="mt-6 md:mt-0">
             <p className="text-gray-500">
-              © 2026 한국여성경제인협회. All rights reserved.
+              © 2026 한국중소벤처기업유통원. All rights reserved.
             </p>
           </div>
         </div>

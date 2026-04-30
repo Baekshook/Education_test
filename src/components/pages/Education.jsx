@@ -29,7 +29,7 @@ export default function Education() {
       <div className="bg-blue-900 text-white py-12 text-center">
         <h1 className="text-3xl font-extrabold">교육 프로그램</h1>
         <p className="mt-3 text-blue-200">
-          여성기업의 역량 강화를 위한 다양한 교육을 만나보세요.
+          소상공인의 역량 강화를 위한 다양한 교육 프로그램을 만나보세요{" "}
         </p>
       </div>
 

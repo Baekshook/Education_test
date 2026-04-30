@@ -6,7 +6,7 @@ export default function Contact() {
           <p className="text-blue-600 font-bold tracking-wide uppercase text-sm mb-1">
             Contact
           </p>
-          <h2 className="text-3xl font-extrabold text-gray-900">사업 문의</h2>
+          <h2 className="text-3xl font-extrabold text-gray-900">행사 문의</h2>
           <p className="text-gray-500 mt-3">
             운영사무국에서 친절하고 신속하게 안내드리겠습니다
           </p>
@@ -19,11 +19,9 @@ export default function Contact() {
               ✉️
             </div>
             <h3 className="text-xl font-bold mb-2 text-gray-900">Email</h3>
-            <p className="text-blue-600 font-medium mb-6">
-              kr_marketing@naver.com
-            </p>
+            <p className="text-blue-600 font-medium mb-6">biz@bizmate.ai.kr </p>
             <a
-              href="mailto:kr_marketing@naver.com"
+              href="mailto:biz@bizmate.ai.kr"
               className="inline-block border border-gray-300 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm"
             >
               메일 보내기 →
@@ -36,14 +34,14 @@ export default function Contact() {
               📞
             </div>
             <h3 className="text-xl font-bold mb-2 text-gray-900">Phone</h3>
-            <p className="text-blue-600 font-medium mb-2">02-743-7398</p>
+            <p className="text-blue-600 font-medium mb-2">02-765-9072~4</p>
             <p className="text-gray-500 text-sm mb-5">
               상담 가능 시간: 10:00 – 16:00
               <br />
               (점심시간 12:00 – 13:00)
             </p>
             <a
-              href="tel:0274377398"
+              href="tel:027659072"
               className="inline-block border border-gray-300 text-gray-700 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-sm"
             >
               전화 연결 →

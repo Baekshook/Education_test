@@ -7,7 +7,7 @@ export default function NoticeBanner() {
             공지
           </span>
           <span className="text-gray-700 truncate hover:underline cursor-pointer">
-            2026년 판로역량강화 지원사업 MD 상담회 1차 신청 마감 안내드립니다.
+            2026년 소상공인 유통플랫폼 MD상담회 1차 모집 안내 드립니다.
           </span>
         </div>
         <a
