@@ -5,6 +5,8 @@ import Overview from "./Overview";
 import Process from "./Process";
 import ApplyCTA from "./ApplyCTA";
 import Footer from "./Footer";
+import FAQ from "./FAQ";
+import Contact from "./Contact";
 
 function Main() {
   return (
@@ -15,6 +17,8 @@ function Main() {
       <Overview />
       <Process />
       <ApplyCTA />
+      <FAQ />
+      <Contact />
       <Footer />
     </div>
   );
