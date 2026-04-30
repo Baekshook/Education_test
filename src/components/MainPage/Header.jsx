@@ -7,24 +7,56 @@ export default function Header() {
         <Link to="/" className="font-bold text-xl text-blue-900 cursor-pointer">
           2026 MD 상담회
         </Link>
-        <nav className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+        <nav className="hidden md:flex space-x-8 text-sm font-medium text-gray-600 items-center">
           <Link to="/" className="hover:text-blue-600 transition-colors">
             홈
           </Link>
+
+          {/* ✨ 새로 추가된 교육 탭 */}
           <Link
-            to="/event"
-            className="hover:text-blue-600 font-bold transition-colors"
+            to="/education"
+            className="hover:text-blue-600 transition-colors"
           >
-            행사안내
+            교육
           </Link>
-          {/* 나머지 메뉴들은 추후 페이지가 생기면 Link로 변경 */}
-          <a href="#check" className="hover:text-blue-600 transition-colors">
+
+          {/* ✨ 드롭다운 메뉴가 적용된 행사 탭 */}
+          <div className="relative group py-5">
+            <span className="hover:text-blue-600 cursor-pointer transition-colors">
+              행사
+            </span>
+            <div className="absolute top-14 left-1/2 -translate-x-1/2 w-40 bg-white border border-gray-100 shadow-xl rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 overflow-hidden flex flex-col">
+              <Link
+                to="/event"
+                className="px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+              >
+                행사 안내
+              </Link>
+              <Link
+                to="/event/gallery"
+                className="px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+              >
+                이전 행사 게시판
+              </Link>
+              <Link
+                to="/event/calendar"
+                className="px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+              >
+                추후 행사 일정
+              </Link>
+              <a
+                href="/#contact"
+                className="px-4 py-3 hover:bg-blue-50 hover:text-blue-600 transition-colors border-t border-gray-50"
+              >
+                행사 문의
+              </a>
+            </div>
+          </div>
+
+          <a href="/#check" className="hover:text-blue-600 transition-colors">
             신청·매칭확인
           </a>
-          <a href="#contact" className="hover:text-blue-600 transition-colors">
-            행사문의
-          </a>
-          <a href="#notice" className="hover:text-blue-600 transition-colors">
+          <a href="/#notice" className="hover:text-blue-600 transition-colors">
             공지사항
           </a>
         </nav>
