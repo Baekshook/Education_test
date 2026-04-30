@@ -1,12 +1,11 @@
-import GlobalStyle from "./GlobalStyle";
-import styled from "styled-components";
+import React from "react";
+import Main from "./components/MainPage/Main";
 
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      g
-    </>
+    <div>
+      <Main />
+    </div>
   );
 }
 
