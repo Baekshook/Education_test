@@ -1,17 +1,23 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <div className="font-bold text-xl text-blue-900 cursor-pointer">
+        <Link to="/" className="font-bold text-xl text-blue-900 cursor-pointer">
           2026 MD 상담회
-        </div>
+        </Link>
         <nav className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
-          <a href="#home" className="hover:text-blue-600 transition-colors">
+          <Link to="/" className="hover:text-blue-600 transition-colors">
             홈
-          </a>
-          <a href="#event" className="hover:text-blue-600 transition-colors">
+          </Link>
+          <Link
+            to="/event"
+            className="hover:text-blue-600 font-bold transition-colors"
+          >
             행사안내
-          </a>
+          </Link>
+          {/* 나머지 메뉴들은 추후 페이지가 생기면 Link로 변경 */}
           <a href="#check" className="hover:text-blue-600 transition-colors">
             신청·매칭확인
           </a>
