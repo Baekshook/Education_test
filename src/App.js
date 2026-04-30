@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Education from "./components/pages/Education";
 import EventGallery from "./components/pages/EventGallery";
 import EventCalendar from "./components/pages/EventCalendar";
+import Apply from "./components/pages/Apply";
+import SignUp from "./components/pages/SignUp";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/event/gallery" element={<EventGallery />} />
             <Route path="/event/calendar" element={<EventCalendar />} />
+            <Route path="/apply" element={<Apply />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </main>
 

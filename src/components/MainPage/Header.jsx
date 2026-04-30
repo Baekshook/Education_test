@@ -11,8 +11,6 @@ export default function Header() {
           <Link to="/" className="hover:text-blue-600 transition-colors">
             홈
           </Link>
-
-          {/* ✨ 새로 추가된 교육 탭 */}
           <Link
             to="/education"
             className="hover:text-blue-600 transition-colors"
@@ -20,7 +18,6 @@ export default function Header() {
             교육
           </Link>
 
-          {/* ✨ 드롭다운 메뉴가 적용된 행사 탭 */}
           <div className="relative group py-5">
             <span className="hover:text-blue-600 cursor-pointer transition-colors">
               행사
@@ -60,10 +57,21 @@ export default function Header() {
             공지사항
           </a>
         </nav>
-        <div>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-semibold text-sm transition-colors">
+
+        {/* ✨ 회원가입 및 신청하기 버튼 영역 */}
+        <div className="flex items-center space-x-4">
+          <Link
+            to="/signup"
+            className="text-gray-600 hover:text-blue-600 font-medium text-sm transition-colors hidden sm:block"
+          >
+            로그인 / 회원가입
+          </Link>
+          <Link
+            to="/apply"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md font-semibold text-sm transition-colors"
+          >
             상담신청하기
-          </button>
+          </Link>
         </div>
       </div>
     </header>
